@@ -6,8 +6,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class AppController {
 
-    @GetMapping("/hi")
+    @GetMapping("/getList")
     public String test(){
-        return "hii";
+        return "hii"; //TODO move to server MC
     }
 }
